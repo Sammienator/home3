@@ -1,0 +1,94 @@
+a:hover,
+a:focus{
+    color: aqua !important ;
+}
+.navbar-default .navbar-nav > li > a{
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.carousel-inner{
+    height: 100vh;
+}
+.carousel-caption{
+    position: static;
+
+}
+.carousel-control.left{
+    background-image: none;
+
+}
+.carousel-control.right{
+    background-image: none;
+    
+}
+.navbar .navbar-default{
+    background: transparent;
+    border-color: transparent;
+}
+.carousel-inner{
+    background-image: url(../image/3.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    
+    
+
+}.banner-text{
+    padding: 10% 0;
+}
+.banner-text h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #ffffff;
+    text-shadow: none;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+.banner-text p{
+    font-size: 20px;
+    color: #f3f2f2;
+    text-shadow: none;
+    font-weight: bold;
+}
+.banner-text p:hover{
+    color: aqua;
+    font-size: 30px;
+}
+.banner-text a{
+    background-color: dodgerblue;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+@media  (max-width:600px){
+    .navbar-brand{
+        padding: 5px;
+    }
+    .navbar-default .navbar-nav > li > a:focus,
+    .navbar-default .navbar-nav >  li >a:hover{
+        background-color: dodgerblue;
+    }
+    .navbar-header{
+        background: transparent;
+
+    }
+    .nav .navbar-nav .navbar-right{
+        background: #000;
+        margin: 0 -15px;
+    }
+    .banner-text{
+        padding: 50% 0;
+    }
+    .banner-text h2{
+        font-size: 20px;
+    }
+}
+    
