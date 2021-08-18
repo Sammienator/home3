@@ -67,6 +67,28 @@ a:focus{
     font-weight: bold;
     border-radius: 50px;
 }
+
+
+
+/* text styling */
+.container{
+    
+}
+
+.text-center{
+    text-align: left;
+
+}
+.text-center h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+
+
+
+
 /* styling for the blog */
 
 .single-blog{
