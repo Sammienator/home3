@@ -70,6 +70,9 @@ a:focus{
 
 
 
+
+
+
 /* text styling */
 /* .container{
     
@@ -77,6 +80,8 @@ a:focus{
 
 .text-center{
     text-align: left;
+    margin: 0;
+    padding: 0;
 
 }
 .text-center h1{
@@ -86,7 +91,37 @@ a:focus{
 
 
 
+/* WRAPPER AND TEXT STYLING */
 
+.wrapper{
+    background: #fff;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+.header{
+    padding: 24px;
+    letter-spacing: 2px;
+    background: #262626;
+    border-bottom: 1px solid #000;
+    cursor: pointer;
+    position: relative;
+    user-select: none;
+    color: #fff;
+}
+.main-text{
+    padding: 16px;
+    line-height: 24px;
+    display: none;
+}
+.header span{
+    position: absolute;
+    right: 20px;
+
+}
+.active{
+    display: block;
+}
 
 
 /* styling for the blog */
@@ -156,7 +191,7 @@ a:focus{
     display: block;
     display: -webkit-box;
     max-width: 80%;
-    -webkit-line-clamp: 8;
+    -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
