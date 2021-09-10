@@ -27,7 +27,7 @@ a:focus{
     border-color: transparent;
 }
 .carousel-inner{
-    background-image: url(../image/3.jpg);
+    background-image: url(../image/8.jpg);
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -47,8 +47,8 @@ a:focus{
     
 }
 .banner-text p{
-    font-size: 20px;
-    color: #f3f2f2;
+    font-size: 30px;
+    color: white;
     text-shadow: none;
     font-weight: bold;
 }
