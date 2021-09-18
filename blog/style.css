@@ -39,7 +39,7 @@ a:focus{
 }
 .banner-text h2{
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 20px;
     color: #ffffff;
     text-shadow: none;
     font-weight: bold;
@@ -47,14 +47,14 @@ a:focus{
     
 }
 .banner-text p{
-    font-size: 30px;
+    font-size: 15px;
     color: white;
     text-shadow: none;
     font-weight: bold;
 }
 .banner-text p:hover{
     color: aqua;
-    font-size: 30px;
+    font-size: 25px;
 }
 .banner-text a{
     background-color: dodgerblue;
@@ -87,6 +87,17 @@ a:focus{
 .text-center h1{
     text-align: center;
     text-decoration: underline;
+    color: black;
+    font-size: bolder;
+}
+.text-center .date{
+    text-align: center;
+    text-decoration: underline;
+
+}
+.text-center .spans{
+   font-weight: bold;
+   text-decoration: underline;
 }
 
 
@@ -102,12 +113,14 @@ a:focus{
 .header{
     padding: 24px;
     letter-spacing: 2px;
-    background: #262626;
+    background: #36b7b5;
     border-bottom: 1px solid #000;
     cursor: pointer;
     position: relative;
     user-select: none;
-    color: #fff;
+    color: black;
+    font-style: italic;
+    font-weight: bolder;
 }
 .main-text{
     padding: 16px;
