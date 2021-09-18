@@ -190,10 +190,12 @@ a:focus{
     margin: 10px;
 }
 .star{
-    display: flex;   
+    display: flex;
     margin: 10px 0px 10px 0px;
 }
-
+.star i{
+    color: #ff9529;
+}
 .client-box p{
     color: #747474;
     font-size: 0.9rem;
